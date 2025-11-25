@@ -35,9 +35,22 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 
 ## Evidence (redacted)
 - Raw email headers: [headers.txt](headers.txt)
-- 6 similar emails, one selected: ![Inbox + email body](screenshots/01-inbox+email.png)
-- Phishing site appears in Google search: !["mandatory background verification" search](screenshots/02-google-listing-phishing-domain.png))
-- Phishing site landing page (captured 2025-11-25 via VPN-protected private tab; full content observed at time of visit, including TransUnion impersonation and $29.95 fee prompt):
-  ![Phishing landing page – full scroll](screenshots/03-phishing-landing-page-full.png)
+- 6 similar emails, one shown here: ![Inbox + email body](screenshots/01-inbox+email.png)
+- Phishing site appears in Google search "mandatory background verification": !["mandatory background verification" google search](screenshots/02-google-listing-phishing-domain.png)
+- Phishing landing page – full vertical scroll, captured 2025-11-24: ![Phishing landing page – full scroll](screenshots/03-phishing-landing-page-full.png)
+*Full-page screenshot showing the entire fraudulent “TransUnion” verification funnel, including the $29.95 payment demand and fake FAQ section.*
 
-This incident demonstrates practical phishing triage and why account-level abuse of trusted platforms is the current dominant job-scam vector in 2025.
+This incident demonstrates practical phishing triage and why account-level abuse of trusted platforms (Lever.co, Greenhouse, Workable, etc.) has become the dominant job-scam vector in 2025.
+
+## Reporting & Resolution Timeline
+
+| Date       | Action                                                  | Status / Outcome                          |
+|------------|---------------------------------------------------------|-------------------------------------------|
+| 2025-11-22 | Incident discovered (6 phishing emails received)       | Documented                                |
+| 2025-11-24 | Full triage completed; GitHub write-up published       | Completed                                 |
+| 2025-11-24 | Phishing landing page safely captured (VPN + private tab) | Evidence added                           |
+| 2025-11-25 | Fraudulent posting reported to FlexJobs                 | Sent – awaiting reply                    |
+| 2025-11-25 | ATS abuse reported to Lever                             | Sent – awaiting reply                    |
+|            |                                                         |                                           |
+|            | *(Future updates will appear here)*                     |                                           |
+
