@@ -49,8 +49,8 @@ This incident demonstrates practical phishing triage and why account-level abuse
 | 2025-11-22 | Incident discovered (6 phishing emails received)       | Documented                                |
 | 2025-11-24 | Full triage completed; GitHub write-up published       | Completed                                 |
 | 2025-11-24 | Phishing landing page safely captured (VPN + private tab) | Evidence added                           |
-| 2025-11-25 | Fraudulent posting reported to FlexJobs                 | Sent – awaiting reply                    |
-| 2025-11-25 | ATS abuse reported to Lever                             | Sent – awaiting reply                    |
+| 2025-11-25 | Fraudulent posting reported to FlexJobs (feedback@flexjobs.com)                 | Sent – plain-text report + all evidence attached                    |
+| 2025-11-25 | ATS abuse reported to Lever (support@lever.co, Cc: privacy@lever.co)                            | Sent – plain-text report + all evidence attached                    |
 |            |                                                         |                                           |
-|            | *(Future updates will appear here)*                     |                                           |
+|     ...       | *(awaiting replies)*                     |                                           |
 
