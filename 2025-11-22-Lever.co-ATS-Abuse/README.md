@@ -9,12 +9,13 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 - Reply-To used standard Lever tracking address  
 - Fraudulent employer: “Angelique Horizons LLC”  
 - Phishing domain: hxxps://mandatorybackgroundverification[.]com (unrelated third-party)
-- Phishing domain now offline (as of Nov 22, 2025), consistent with disposable scam infrastructure
+- Phishing domain currently online (as of Nov 24, 2025)
 
 ## Indicators of Compromise (IOCs)
 - Phishing URL: hxxps://mandatorybackgroundverification[.]com  
 - Lever Reply-To UUID: 5a19516a-e437-408a-a3d9-815b0997ca01  
 - Fake company name variations: Angelique Horizons LLC, Angelique Horizons
+- Requesting background check before employment
 
 ## Scale of the Campaign
 - Received 6 near-identical messages within 60 seconds from the same fraudulent Lever account
@@ -29,6 +30,5 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 ## Evidence (redacted)
 - Raw email headers: [headers.txt](headers.txt)  
 - Screenshots: [screenshots/](screenshots/)
-- Phishing site status (Nov 22, 2025): Domain taken down shortly after initial contact; no archived screenshot available
 
 This incident demonstrates practical phishing triage and why account-level abuse of trusted platforms is the current dominant job-scam vector in 2025.
