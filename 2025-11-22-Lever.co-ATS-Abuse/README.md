@@ -36,11 +36,16 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 - Always verify the hiring company’s real domain and official career page before clicking any “verification” links
 
 ## Evidence (redacted)
-- Raw email headers: [headers.txt](headers.txt)
-- 6 similar emails, one shown here: ![Inbox + email body](screenshots/01-inbox+email.png)
-- Phishing site appears in Google search "mandatory background verification": !["mandatory background verification" google search](screenshots/02-google-listing-phishing-domain.png)
-- Phishing landing page – full vertical scroll, captured 2025-11-24: ![Phishing landing page – full scroll](screenshots/03-phishing-landing-page-full.png)
-*Full-page screenshot showing the entire fraudulent “TransUnion” verification funnel, including the $29.95 payment demand and fake FAQ section.*
+Raw email headers: [headers.txt](evidence/headers.txt)
+
+![Inbox view – six phishing emails received in <60 seconds](evidence/01_inbox_email.png)
+*Figure 1: ProtonMail inbox showing the six rapid-fire messages from the fraudulent Lever account*
+
+![Google search ranking the phishing domain for “mandatory background verification”](evidence/02_phishing_site_google_listing.png)
+*Figure 2: Google search results (Nov 2025) – phishing site ranking highly for the exact phrase used in the scam*
+
+![Full phishing landing page – vertical scroll, captured 2025-11-24](evidence/03_phishing_site_landing_page_full.png)
+*Figure 3: Complete screenshot of mandatorybackgroundverification[.]com impersonating TransUnion and demanding $29.95*
 
 This incident demonstrates practical phishing triage and why account-level abuse of trusted platforms (Lever.co, Greenhouse, Workable, etc.) has become the dominant job-scam vector in 2025.
 
