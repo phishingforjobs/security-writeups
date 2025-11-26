@@ -1,6 +1,6 @@
 Note: This research was originally conducted under my personal account (devinryback) for responsible disclosure to Lever and FlexJobs. The repository has been moved to this dedicated professional handle for privacy and focus while job searching. All work is my own.
 
-# Lever.co ATS Abuse – Legitimate Email, Malicious Intent (Nov 22, 2025)
+# Lever.co ATS Abuse – Legitimate Email, Malicious Intent (22 Nov 2025)
 
 ## Summary
 Received a fully authenticated next-stage interview email from Lever.co (SPF/DKIM/DMARC all pass) that linked to a fake background-check phishing site. The attack succeeded because the scammer created or compromised a real Lever employer account – not by spoofing email.
@@ -11,7 +11,7 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 - Reply-To used standard Lever.co tracking address  
 - Fraudulent employer: “Angelique Horizons LLC”  
 - Phishing domain: hxxps://mandatorybackgroundverification[.]com (unrelated third-party)
-- Phishing domain currently online (as of Nov 24, 2025)
+- Phishing domain currently online (as of 24 Nov 2025)
 - **Candidate never applied to any Angelique Horizons posting** — the fraudulent job was advertised under a different title/company name on FlexJobs solely to harvest applicant data for this phishing campaign
 
 ## Indicators of Compromise (IOCs)
@@ -44,15 +44,19 @@ Received a fully authenticated next-stage interview email from Lever.co (SPF/DKI
 
 This incident demonstrates practical phishing triage and why account-level abuse of trusted platforms (Lever.co, Greenhouse, Workable, etc.) has become the dominant job-scam vector in 2025.
 
+## Resolution Update – 26 Nov 2025
+Lever confirmed the fraudulent “Angelique Horizons LLC” employer account was deactivated in early November 2025 following legal action. The six phishing emails received on 22 Nov 2025 were queued/scheduled messages that processed after suspension — a known limitation of many ATS email workflows when bulk or delayed sends are involved. No further technical details were shared (standard practice for security/legal reasons).
+
+The incident is fully resolved on Lever’s side.
+
 ## Reporting & Resolution Timeline
 
-| Date       | Action                                                  | Status / Outcome                          |
-|------------|---------------------------------------------------------|-------------------------------------------|
-| 2025-11-22 | Incident discovered (6 phishing emails received)       | Documented                                |
-| 2025-11-24 | Full triage completed; GitHub write-up published       | Completed                                 |
-| 2025-11-24 | Phishing landing page safely captured (VPN + private tab) | Evidence added                           |
-| 2025-11-25 | Fraudulent posting reported to FlexJobs (feedback@flexjobs.com)                 | Sent – plain-text report + all evidence attached                    |
-| 2025-11-25 | ATS abuse reported to Lever (support@lever.co, Cc: privacy@lever.co)                            | Sent – plain-text report + all evidence attached                    |
-|            |                                                         |                                           |
-|     ...       | *(awaiting replies)*                     |                                           |
-
+| Date       | Action                                                                 | Status / Outcome                                      |
+|------------|------------------------------------------------------------------------|-------------------------------------------------------|
+| 2025-11-22 | Incident discovered (6 phishing emails received)                       | Documented                                            |
+| 2025-11-24 | Full triage completed; GitHub write-up published                       | Completed                                             |
+| 2025-11-24 | Phishing landing page safely captured (VPN + private tab)              | Evidence added                                        |
+| 2025-11-25 | Fraudulent posting reported to FlexJobs                                | Sent – awaiting reply                                 |
+| 2025-11-25 | ATS abuse reported to Lever                                            | Sent                                                  |
+| 2025-11-26 | Lever confirmed account deactivated early Nov; late emails were queued/scheduled sends | **Resolved on Lever side**            |
+| ...        |                                                                        | (FlexJobs reply pending)                              |
