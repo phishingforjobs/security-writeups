@@ -1,3 +1,5 @@
+Note: This research was originally conducted under my personal account (devinryback) for responsible disclosure to Lever and FlexJobs. The repository has been moved to this dedicated professional handle for privacy and focus while job searching. All work is my own.
+
 # Lever.co ATS Abuse – Legitimate Email, Malicious Intent (Nov 22, 2025)
 
 ## Summary
