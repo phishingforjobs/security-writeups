@@ -1,0 +1,30 @@
+Return-Path: <bounce+7d76fc.0445-[REDACTED]=protonmail.com@hire.lever.co>
+X-Original-To: [REDACTED]@protonmail.com
+Delivered-To: [REDACTED]@protonmail.com
+Authentication-Results: mail.protonmail.ch; dkim=pass (Good 1024 bit rsa-sha256 signature) header.d=hire.lever.co
+Authentication-Results: mail.protonmail.ch; dmarc=pass (p=reject dis=none) header.from=hire.lever.co
+Authentication-Results: mail.protonmail.ch; spf=pass smtp.mailfrom=hire.lever.co
+Authentication-Results: mail.protonmail.ch; arc=none smtp.remote-ip=159.112.248.213
+Authentication-Results: mail.protonmail.ch; dkim=pass (1024-bit key) header.d=hire.lever.co header.i=@hire.lever.co header.b="qKIrUGvI"
+Received: from m248-213.rdns-1.mailgun.net (m248-213.rdns-1.mailgun.net [159.112.248.213])
+ by mailin026.protonmail.ch (Postfix) with ESMTPS id 4dHMnD67ctz9vNPQ
+ for <[REDACTED]@protonmail.com>; Thu, 27 Nov 2025 16:48:16 +0000 (UTC)
+Received: by [REDACTED_MAILGUN_INSTANCE] with HTTP; Thu, 27 Nov 2025 16:48:16 GMT
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hire.lever.co; s=mx; t=1764262096;
+ h=Message-Id:Reply-To:To:From:Subject:Content-Type:Mime-Version:Date;
+ bh=cT1K527C4k9iQ6wuVafj/H8IBfY4wr0lJ9qeoFxQ3b0=;
+ b=qKIrUGvIiPyRXGPAnVLwoZohnvC64j8rCqL7sPoM4xXyVnvR06UeqNJLUl5DC8dPoHKa0EvvwXvGbqiFraDJE1JllBQMiJniY36vcII4YWC7AEi1QsvUI4bhOokgPeIuCcUQNKckpXdV91bj4FUzsrTUIvAIjwZbHriCfUCT3FQ=
+X-Mailgun-Sending-Ip: 159.112.248.213
+Sender: mail@hire.lever.co
+Date: Thu, 27 Nov 2025 16:48:16 +0000
+Mime-Version: 1.0
+Content-Type: text/html
+Subject: Thank You For Applying
+From: AXA Philippines Paragons Branch <mail@hire.lever.co>
+To: [REDACTED]@protonmail.com
+Reply-To: 8f432bb2-dc0c-4038-be3b-fb552c2551c3@reply.lever.co
+Message-Id: <20251127164816.94c9f8fde93eb269@hire.lever.co>
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 0
