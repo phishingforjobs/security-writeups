@@ -40,3 +40,7 @@ Received a second fully authenticated phishing email sent through Lever’s legi
 
 ## Evidence (redacted)
 
+- Raw email headers: [01_headers.txt](evidence/01_headers.txt)
+
+![Inbox view + email body](evidence/02_inbox_email.png)
+*Figure 1: ProtonMail inbox showing the phishing email from the fraudulent Lever account*
