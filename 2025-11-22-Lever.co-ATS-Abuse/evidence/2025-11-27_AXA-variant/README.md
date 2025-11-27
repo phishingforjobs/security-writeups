@@ -44,3 +44,14 @@ Received a second fully authenticated phishing email sent through Lever’s legi
 
 ![Inbox view + email body](evidence/02_inbox_email.png)
 *Figure 1: ProtonMail inbox showing the phishing email from the fraudulent Lever account*
+
+## Reporting & Resolution Timeline - Updated
+## Reporting & Resolution Timeline
+
+| Date            | Action                                                                                 | Status / Outcome                              |
+|-----------------|----------------------------------------------------------------------------------------|-----------------------------------------------|
+| 2025-11-22      | Original Angelique Horizons incident discovered                                        | Documented                                    |
+| 2025-11-26      | Lever deactivated Angelique Horizons account                                           | Resolved                                      |
+| **2025-11-27**  | **New variant received – AXA impersonation, same phishing domain**                     | **Documented – this report**                  |
+| 2025-11-27      | Follow-up submitted to Lever                                                           | Sent – awaiting response                      |
+| TBD (Dec 2025)  | Registrar/APWG takedown coordination for mandatorybackgroundverification[.]com         | Planned                                       |
