@@ -54,4 +54,5 @@ Received a second fully authenticated phishing email sent through Lever’s legi
 | 2025-11-26      | Lever deactivated Angelique Horizons account                                           | Resolved                                      |
 | **2025-11-27**  | **New variant received – AXA impersonation, same phishing domain**                     | **Documented – this report**                  |
 | 2025-11-27      | Follow-up submitted to Lever                                                           | Sent – awaiting response                      |
+| 2025-12-01      | Lever confirmed account deactivated early Nov; late emails were queued/scheduled sends | **Resolved on Lever side**                    |
 | TBD (Dec 2025)  | Registrar/APWG takedown coordination for mandatorybackgroundverification[.]com         | Planned                                       |
